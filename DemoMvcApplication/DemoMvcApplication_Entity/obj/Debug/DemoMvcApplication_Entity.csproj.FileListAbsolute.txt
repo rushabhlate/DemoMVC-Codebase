@@ -1,0 +1,5 @@
+E:\Rushabh New Project\DemoMvcApplication\DemoMvcApplication_Entity\bin\Debug\DemoMvcApplication_Entity.dll
+E:\Rushabh New Project\DemoMvcApplication\DemoMvcApplication_Entity\bin\Debug\DemoMvcApplication_Entity.pdb
+E:\Rushabh New Project\DemoMvcApplication\DemoMvcApplication_Entity\obj\Debug\DemoMvcApplication_Entity.csprojResolveAssemblyReference.cache
+E:\Rushabh New Project\DemoMvcApplication\DemoMvcApplication_Entity\obj\Debug\DemoMvcApplication_Entity.dll
+E:\Rushabh New Project\DemoMvcApplication\DemoMvcApplication_Entity\obj\Debug\DemoMvcApplication_Entity.pdb

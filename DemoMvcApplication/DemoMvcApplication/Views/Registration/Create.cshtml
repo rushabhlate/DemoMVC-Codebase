@@ -1,0 +1,74 @@
+﻿@model DemoMvcApplication_Entity.RegistrationEntity
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Create</h2>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>RegistrationEntity</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.FullName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.FullName)
+            @Html.ValidationMessageFor(model => model.FullName)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Address)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Address)
+            @Html.ValidationMessageFor(model => model.Address)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Emailid)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Emailid)
+            @Html.ValidationMessageFor(model => model.Emailid)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Gender)
+        </div>
+        <div class="display-label">
+          @Html.RadioButton("Gender","male",false) Male
+        
+            @Html.ValidationMessageFor(model => model.Gender)
+        </div>
+        <div class="display-label">
+              @Html.RadioButton("Gender","female",false) Female
+               </div>
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Mobno)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Mobno)
+            @Html.ValidationMessageFor(model => model.Mobno)
+        </div>
+
+       
+
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

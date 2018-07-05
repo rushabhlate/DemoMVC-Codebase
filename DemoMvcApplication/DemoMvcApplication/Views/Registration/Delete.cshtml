@@ -1,0 +1,47 @@
+﻿@model DemoMvcApplication_Entity.RegistrationEntity
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<fieldset>
+    <legend>RegistrationEntity</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.FullName): @Html.DisplayFor(model => model.FullName)
+    </div>
+   
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Address):  @Html.DisplayFor(model => model.Address)
+    </div>
+   
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Emailid): @Html.DisplayFor(model => model.Emailid)
+    </div>
+    
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Gender):@Html.DisplayFor(model => model.Gender)
+    </div>
+    
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Mobno): @Html.DisplayFor(model => model.Mobno)
+    </div>
+    
+
+   
+</fieldset>
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    <p>
+        <input type="submit" value="Delete" /> |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+}

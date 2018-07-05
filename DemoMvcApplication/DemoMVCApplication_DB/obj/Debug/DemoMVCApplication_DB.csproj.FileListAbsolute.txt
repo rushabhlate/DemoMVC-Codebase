@@ -1,0 +1,10 @@
+E:\Rushabh New Project\DemoMvcApplication\DemoMVCApplication_DB\bin\Debug\DemoMVCApplication_DB.dll.config
+E:\Rushabh New Project\DemoMvcApplication\DemoMVCApplication_DB\bin\Debug\DemoMVCApplication_DB.dll
+E:\Rushabh New Project\DemoMvcApplication\DemoMVCApplication_DB\bin\Debug\DemoMVCApplication_DB.pdb
+E:\Rushabh New Project\DemoMvcApplication\DemoMVCApplication_DB\bin\Debug\DemoMvcApplication_Entity.dll
+E:\Rushabh New Project\DemoMvcApplication\DemoMVCApplication_DB\bin\Debug\EntityFramework.dll
+E:\Rushabh New Project\DemoMvcApplication\DemoMVCApplication_DB\bin\Debug\DemoMvcApplication_Entity.pdb
+E:\Rushabh New Project\DemoMvcApplication\DemoMVCApplication_DB\bin\Debug\EntityFramework.xml
+E:\Rushabh New Project\DemoMvcApplication\DemoMVCApplication_DB\obj\Debug\DemoMVCApplication_DB.csprojResolveAssemblyReference.cache
+E:\Rushabh New Project\DemoMvcApplication\DemoMVCApplication_DB\obj\Debug\DemoMVCApplication_DB.dll
+E:\Rushabh New Project\DemoMvcApplication\DemoMVCApplication_DB\obj\Debug\DemoMVCApplication_DB.pdb
